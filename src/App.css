@@ -1,0 +1,16 @@
+.bg-color {
+  background: #0E2654 !important;
+  color: white !important;
+  font-weight: bolder !important;
+}
+
+.bg-color-footer {
+  background: #0E2654 !important;
+  color: white !important;
+
+}
+
+
+.img-fondo {
+  background-image: url(./assets/fondo2.jpg);
+}
