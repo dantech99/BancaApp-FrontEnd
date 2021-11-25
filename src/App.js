@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Foot from './components/Footer'
-import Lateral from './components/Lateral'
+import Foot from './components/Footer/Footer'
+import Lateral from './components/Lateral/Lateral'
 
 
 
