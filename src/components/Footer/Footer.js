@@ -1,7 +1,7 @@
 import React from 'react'
-import imagenvigilado from "../imagenes/ImgVigilado.png";
-import imagenredes from "../imagenes/Imgredessociales.png";
-import"../App.css"
+import imagenvigilado from "./imagenvigilado.png";
+import imagenredes from "./Imgredessociales.png";
+import"./App.css"
 
 
 
