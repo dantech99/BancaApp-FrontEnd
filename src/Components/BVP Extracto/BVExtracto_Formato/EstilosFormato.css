@@ -1,0 +1,68 @@
+#estado_cuenta{
+    width: 982px;
+}
+
+#cuenta_titulo{
+    height: 43px;
+
+    background: #ABCAF8;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+#cuenta_titulo p{
+    margin: auto;
+}
+
+#cuenta_cliente{
+    width: 462px !important;
+    height: 104px;
+
+    background: #E0E7F2;
+    border-radius: 8px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #000000;
+    padding: 0px;
+    margin-top: 62px;
+}
+
+#cuenta_cliente p{
+    margin: 10px;
+}
+
+#cuenta_numero{
+    width: 462px !important;
+    height: 135px;
+    left: 749px;
+    top: 252px;
+
+    background: #E0E7F2;
+    border-radius: 8px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #000000;
+    padding: 0px;
+    margin-left: 58px;
+    margin-top: 31px;
+}
+
+#cuenta_numero p{
+    margin: 10px;
+}
+
+#cuenta_tabla{
+    margin-top: 20px;
+}

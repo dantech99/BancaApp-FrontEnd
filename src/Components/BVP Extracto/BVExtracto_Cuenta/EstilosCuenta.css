@@ -1,0 +1,104 @@
+#sel_container{
+    width: 829px;
+    height: 287px;
+
+    background: #C9D7F3;
+    border-radius: 8px;
+}
+
+#sel_titulo{
+    width: 829px;
+    height: 43px;
+
+    background: #ABCAF8;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+#sel_titulo p{
+    margin: auto;
+}
+
+#sel_cuenta{
+    width: 804px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 4px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+#sel_cuenta p{
+    height: 30px;
+    margin: auto;
+}
+
+#sel_periodo{
+    width: 758px;
+    height: 81px;
+
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+    margin: auto;
+    margin-top: 8px;
+}
+
+#sel_periodo p{
+    margin: 24px 0px 0px 45px;
+}
+
+#sel_desplegable{
+    width: 433px;
+    height: 62px;
+
+    background: #B5C9F0;
+    border: 1px solid rgba(14, 9, 249, 0.833333);
+    box-sizing: border-box;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: rgba(48, 47, 47, 0.35);
+    margin: 4px 24px 0px 0px;
+}
+
+#sel_boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.sel_boton{
+    width: 194px;
+    height: 72px;
+
+    background: rgba(89, 159, 241, 0.62);
+    border: 0px;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+    margin-top: 24px;
+}

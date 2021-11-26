@@ -3,10 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import BotonRegresar from './Components/BVP Extracto/BotonRegresar.jsx'
+import DetalleProducto from './Components/BVP Extracto/BVExtracto/DetalleProducto.jsx'
+import GenerarExtractoTitulo from './Components/BVP Extracto/GenerarExtractoTitulo.jsx'
+import RectanguloGenerarExtracto from './Components/BVP Extracto/RectanguloGenerarExtracto.jsx'
+import ExtractoProductoSel from './Components/BVP Extracto/BVExtracto_Cuenta/ExtractoProductoSel.jsx'
+import EstadoCuenta from './Components/BVP Extracto/BVExtracto_Formato/EstadoCuenta.jsx'
+import BancaHeader from './Components/BancaHeader/BancaHeader.jsx'
+import Footer from './Components/Footer/Footer.js'
+import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BancaHeader />
+    <BotonRegresar />
+    <EstadoCuenta />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
