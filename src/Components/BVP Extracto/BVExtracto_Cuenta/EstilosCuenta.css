@@ -102,3 +102,30 @@
     color: #FFFFFF;
     margin-top: 24px;
 }
+
+#cuenta_page{
+    display: flex;
+}
+
+#cuenta_container1{
+    width: 270px !important;
+    margin: 0 !important;
+}
+
+#cuenta_row1{
+    margin-top: 8px;
+    margin-bottom: 37px;
+}
+
+#cuenta_row2{
+    margin-bottom: 14px;
+}
+
+#cuenta_row3{
+    margin-top: 57px;
+}
+
+#cuenta_row4{
+    margin-top: 65px;
+    margin-bottom: 65px;
+}

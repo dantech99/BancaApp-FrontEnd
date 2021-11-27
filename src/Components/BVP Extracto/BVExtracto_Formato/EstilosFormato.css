@@ -66,3 +66,20 @@
 #cuenta_tabla{
     margin-top: 20px;
 }
+
+#formato_container{
+    margin: 0px;
+}
+
+#formato_row1{
+    
+    margin-top: 8px;
+}
+
+#formato_row2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

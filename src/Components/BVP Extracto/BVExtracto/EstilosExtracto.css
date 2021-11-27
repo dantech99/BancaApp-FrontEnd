@@ -57,3 +57,30 @@
     font-size: 24px !important;
     color: #FFFFFF !important;
 }
+
+#extracto_page{
+    display: flex;
+}
+
+#extracto_container1{
+    width: 270px !important;
+    margin: 0 !important;
+}
+
+#extracto_row1{
+    margin-top: 8px;
+    margin-bottom: 37px;
+}
+
+#extracto_row2{
+    margin-bottom: 14px;
+}
+
+#extracto_row3{
+    margin-top: 57px;
+}
+
+#extracto_row4{
+    margin-top: 65px;
+    margin-bottom: 65px;
+}

@@ -1,12 +1,13 @@
 //header de la interfaz banca virtual por usuario
 
 import "./BancaHeader.css";
+import imagelogo from "../../Assets/logo.jpg";
 
 export default function BancaHeader() {
     return (
             <nav className="navbar navbar-light bg-light">
                 <div className="container-fluid p-3 d-flex">
-                    <a className="navbar-brand" href="...">Logo</a>
+                    <img className="m-4" src={imagelogo} alt="" />
                     <button type="button" class="btn btn-danger p-2 w-25 btn-v">Banca Virtual Persona</button>
                 </div>
                 <div className="container-fluid bg-danger p-1 ">
