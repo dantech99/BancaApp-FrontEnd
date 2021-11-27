@@ -1,9 +1,10 @@
 import React from "react";
+import InicioSesion from "../../components/InicioSesion/InicioSesion";
 
 const Login = () => {
   return (
     <div>
-      <h1>Este es la pagina Login</h1>
+      <InicioSesion />
     </div>
   );
 };

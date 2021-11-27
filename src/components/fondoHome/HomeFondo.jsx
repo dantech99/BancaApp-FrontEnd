@@ -27,12 +27,6 @@ const HomeFondo = () => {
             de un acceso ágil y rápido a tus recursos,obtienes un mayor control
             sobre tus finanzas.
           </h5>
-          <Link
-            to="/Registrarse"
-            className="btn btn-danger m-4  d-flex justify-content-center"
-          >
-            Registrate
-          </Link>
         </div>
       </section>
       <section className="container mt-4 p-4 img-fondo">
