@@ -1,0 +1,118 @@
+/* estilos para la seccion de las tarjetas de la interfaz de banca virtual usuario */
+
+
+/* seccion principal / clase personalizada */
+.section{
+    width: 99%;
+    height: 100vh;
+    margin-bottom: 210px;
+}
+
+
+/* seccion de la tarjeta con el mensaje para elejir un servicio */
+.section-body{
+    padding: 100px;
+    color: #9CA6FD;
+}
+.section-body img{
+    width: 150px;
+    
+}
+.section-body h3{
+    
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+/* contenedor principal de las 3 tarjetas */
+.card-er{
+    position: relative;
+    bottom: 23px;
+}
+
+
+/* tarjeta # 1 la mas grande  */
+.card-sf{
+    width: 500px;
+    height: 292px;
+    padding: 20px;
+    border-radius: 15px;
+    background: #B5C9F0 !important;
+    margin-left: 50px;
+
+}
+.card-img{
+    width: 20%;
+}
+.card-img img{
+    width: 85px;
+    margin-top: 60px;
+}
+
+.card-text{
+    width: 400%;
+}
+.card-text p{
+    font-size: 24px;
+    color: #E70B0B;
+    text-align: center;
+}
+
+.card-text ul li{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #0E09F9;
+    font-weight: 400;
+
+}
+
+
+
+/* tarjeta #2 de extracto  */
+.card-extracto{
+    border-radius: 15px;
+    background: #B5C9F0 !important;
+    margin-left: 200px;
+    width: 468px;
+    height: 143px;
+}
+.card-extracto .card-extracto-img img{
+    width: 76px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.card-extracto .card-extracto-text ul li{
+    color: #0E09F9;
+    font-size: 20px;
+
+}
+
+
+/* tarjeta #3 de reclamo */
+.card-reclamo{
+    border-radius: 15px;
+    background: #B5C9F0 !important;
+    margin-left: 200px;
+    width: 468px;
+    height: 143px;
+    margin-top: 30px;
+}
+.card-reclamo .card-reclamo-img img{
+    width: 76px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.card-reclamo .card-reclamo-text ul li{
+    color: #0E09F9;
+    font-size: 20px;
+
+}
+
+
+
+/* seccion de imagen de fonodo  */
+.imgFondo{
+    z-index: -3;
+    
+}

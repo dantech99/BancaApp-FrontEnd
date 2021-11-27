@@ -1,10 +1,7 @@
-import React from 'react'
-import imagenvigilado from "./ImgVigilado.png";
-import imagenredes from "./Imgredessociales.png";
-import"./App.css"
-
-
-
+import React from "react";
+import "./InstitutionalFooter.css";
+import imagensocial from "./redessocialesfooter.png";
+import imagenvigilado from "./vigiladofooter.png";
 
 const Footer = () => {
   return (
@@ -17,11 +14,11 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <img className="m-4" src={imagenredes} alt="" />
+          <img className="m-4" src={imagensocial} alt="" />
           <img className="m-4" src={imagenvigilado} alt="" />
         </div>
         <div className="row col-2">
-          <p className="m-6 text-center text-justify">
+          <p className="mt-4 text-center text-justify">
             Directorio alternos Contáctenos
           </p>
         </div>

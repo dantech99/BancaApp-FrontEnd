@@ -1,0 +1,26 @@
+.tituloCan-sm-3 {
+    align-items: baseline;
+    font-size: 24px;
+    color: #0D1DAB;
+  }
+  
+  .form-controlCan{
+    width: 553px;
+    height: 34px;
+    display: flex;
+    background: #CACFFA;
+    border-radius: 12px;
+  }
+  .form-TextACan{
+    width: 553px;
+    height: 234px;
+    display: flex;
+    background: #CACFFA;
+    border-radius: 12px;
+  
+  }
+  h5 {
+    line-height: 25px;
+    text-align: center;
+    color: #131ACB;
+  }

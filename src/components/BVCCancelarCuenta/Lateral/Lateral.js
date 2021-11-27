@@ -1,6 +1,7 @@
 import React from 'react'
 import"./App.css"
 import fiducia from "./ImgFiducia.png";
+import { Link } from "react-router-dom";
 
 
 
@@ -18,12 +19,18 @@ const Lateral = () => {
                             </div>
                             <p className="text-danger col-1"> Servicios de Fiduciaria </p>
                         </div>
-                        <div class="list text-capitalize text-black">
-                            <p>Solicitar Fiducuenta</p>
-                            <p>Transferir dinero a otra Fiducuenta</p>
-                            <p>Cancelar Fiducuenta</p>
-
-                        </div>
+                        <ul className="flex list-group">
+                                <Link to="/CrearCuentaFiduciaria">
+                                    Solicitar Fiducuenta.
+                                </Link>
+                            
+                                <Link to="/Transferencias">
+                                    Transferir dinero a otra fiducuenta.
+                                    </Link>
+                                <Link to="/CerrarCuentaFiduciaria ">
+                                    CanceLar Fiducuenta.
+                                    </Link>
+                            </ul>
                     </div>
                 </div>      
             </div>
