@@ -1,5 +1,5 @@
 import React from 'react'
-import imagenvigilado from "./imagenvigilado.png";
+import imagenvigilado from "./ImgVigilado.png";
 import imagenredes from "./Imgredessociales.png";
 import"./App.css"
 
