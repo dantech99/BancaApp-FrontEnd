@@ -29,7 +29,7 @@ const BancaCard = () => {
                         <div className="card-text">
                             <p>Servicios de Fiduciaria</p>
                             <ul className="flex list-group">
-                                <Link to="/CrearCuentaFiduciaria">
+                                <Link to="/Fiducia">
                                     Solicitar Fiducuenta.
                                 </Link>
                             

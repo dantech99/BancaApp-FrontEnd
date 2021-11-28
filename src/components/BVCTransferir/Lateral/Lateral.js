@@ -20,7 +20,7 @@ const Lateral = () => {
                             <p className="text-danger col-1"> Servicios de Fiduciaria </p>
                         </div>
                         <ul className="flex list-group">
-                                <Link to="/CrearCuentaFiduciaria">
+                                <Link to="/Fiducia">
                                     Solicitar Fiducuenta.
                                 </Link>
                             

@@ -15,7 +15,7 @@ import BancaCard from "./components/BancaVirtualUser/BancaCard/BancaCard";
 import CrearFidu from "./components/BVCCrearFiduCuenta/CrearFiducuenta";
 import CerrarFidu from "./components/BVCCancelarCuenta/CancelarFiducuenta";
 import TransFidu from "./components/BVCTransferir/TransfDineroFiduCuenta";
-
+import ClienteFidu from "./components/BVCliente/BVCliente";
 const App = () => {
   return (
     <Router>
@@ -29,6 +29,7 @@ const App = () => {
         <Route path="/Clientes" element={<Clientes />} />
         <Route path="/qr" element={<Qr />} />
         <Route path="/BancaVirtual" element={<BancaCard />} />
+        <Route path="/Fiducia" element={<ClienteFidu />} />
         <Route path="/CrearCuentaFiduciaria" element={<CrearFidu />} />
         <Route path="/CerrarCuentaFiduciaria" element={<CerrarFidu />} />
         <Route path="/Transferencias" element={<TransFidu />} />
