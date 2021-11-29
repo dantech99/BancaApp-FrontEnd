@@ -1,0 +1,12 @@
+
+/* estilos para el botonde banca virtual persona */
+.btn-v{
+    top: 30px;
+    position: relative;
+    border-radius: 0 !important;
+    
+}
+
+.img-logo{
+    width: 300px;
+}
