@@ -8,6 +8,7 @@ import Registrarse from "./components/pages/Registrarse";
 import Clientes from "./components/pages/Clientes";
 import { Dashboard } from "./components/pages/Dashboard";
 import UsuarioInterno from "./components/pages/UsuarioInterno";
+import { DashUserPage } from "./components/pages/DashUserPage";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/Dashboard" element={<Dashboard />} />
         <Route path="/Clientes" element={<Clientes />} />
         <Route path="/UsuarioInterno" element={<UsuarioInterno />} />
+        <Route path="/DashUserPage" element={<DashUserPage />} />
       </Routes>
       <Footer />
     </Router>
