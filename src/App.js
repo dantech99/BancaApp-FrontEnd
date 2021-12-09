@@ -1,50 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 21f54e3587b356e3df6fd93df94fece5d4ba3b35
+
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/navegacion/Navbar";
 import Footer from "./components/footer/Footer";
 import Login from "./components/pages/Login";
 import Home from "./components/pages/Home";
-<<<<<<< HEAD
-import Registrarse from "./components/pages/Registrarse";
-import Clientes from "./components/pages/Clientes";
-import { Dashboard } from "./components/pages/Dashboard";
-import UsuarioInterno from "./components/pages/UsuarioInterno";
-import { DashUserPage } from "./components/pages/DashUserPage";
-
-const App = () => {
-  return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Login" element={<Login />} />
-        <Route path="/Registrarse" element={<Registrarse />} />
-        <Route path="/Dashboard" element={<Dashboard />} />
-        <Route path="/Clientes" element={<Clientes />} />
-        <Route path="/UsuarioInterno" element={<UsuarioInterno />} />
-        <Route path="/DashUserPage" element={<DashUserPage />} />
-      </Routes>
-      <Footer />
-    </Router>
-  );
-};
-
-export default App;
-=======
-import React from 'react'
-
-import Foot from './components/Footer/Footer'
-import Lateral from './components/Lateral/Lateral'
-
-
-
-
-function App() {
-=======
 import RegistroClientes from "./components/RegistroClientes/RegistroClientes";
 import AddDatosPersonales from "./components/DatosPersonalesCliente/AddDatosPersonales";
 import Clientes from "./components/pages/Clientes";
@@ -57,8 +17,12 @@ import CrearFidu from "./components/BVCCrearFiduCuenta/CrearFiducuenta";
 import CerrarFidu from "./components/BVCCancelarCuenta/CancelarFiducuenta";
 import TransFidu from "./components/BVCTransferir/TransfDineroFiduCuenta";
 import ClienteFidu from "./components/BVCliente/BVCliente";
+
+
+
+
+
 const App = () => {
->>>>>>> 21f54e3587b356e3df6fd93df94fece5d4ba3b35
   return (
     <Router>
       <Navbar />
@@ -83,9 +47,3 @@ const App = () => {
   );
 };
 
-<<<<<<< HEAD
-export default App
->>>>>>> jhon
-=======
-export default App;
->>>>>>> 21f54e3587b356e3df6fd93df94fece5d4ba3b35
