@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/navegacion/Navbar";
@@ -29,3 +30,23 @@ const App = () => {
 };
 
 export default App;
+=======
+import React from 'react'
+
+import Foot from './components/Footer/Footer'
+import Lateral from './components/Lateral/Lateral'
+
+
+
+
+function App() {
+  return (
+    <div>
+      <Lateral/>
+      <Foot/>
+    </div>
+  )
+}
+
+export default App
+>>>>>>> jhon
