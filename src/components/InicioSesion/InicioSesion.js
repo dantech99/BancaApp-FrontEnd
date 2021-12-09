@@ -1,10 +1,6 @@
 import "./inicioSesion.css";
 import React from "react";
 import ImgEnvio from "./img/ImgEnvio.jpg";
-<<<<<<< HEAD
-=======
-import { Link } from "react-router-dom";
->>>>>>> 21f54e3587b356e3df6fd93df94fece5d4ba3b35
 
 function InicioSesion() {
   const Usuario = "Usuario";
@@ -26,7 +22,7 @@ function InicioSesion() {
               <label for="staticEmail" className="col-sm-3 col-form-label">
                 {Contraseña}
               </label>
-              <input type="text" className="form-control"></input>
+              <input type="password" className="form-control"></input>
             </div>
             <div className="mb-3 row">
               <label for="inputTipo" className="col-sm-3 col-form-label">
@@ -47,11 +43,7 @@ function InicioSesion() {
               <div class="container">
                 <div class="row">
                   <div class="col text-center">
-<<<<<<< HEAD
                     <button class="btn btn-default">Iniciar Sesión</button>
-=======
-                    <Link class="btn btn-default"  to="/BancaVirtual">Iniciar Sesión</Link>
->>>>>>> 21f54e3587b356e3df6fd93df94fece5d4ba3b35
                   </div>
                 </div>
               </div>

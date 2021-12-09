@@ -15,15 +15,7 @@ const navbar = () => {
           <Link to="/Login" className="btn btn-danger m-2">
             Login
           </Link>
-<<<<<<< HEAD
-          <Link to="/Registrarse" className="btn btn-danger m-2">
-            Registrate
-          </Link>
-=======
-          {/* <Link to="/Registrarse" className="btn btn-danger m-2">
-            Registrate
-          </Link> */}
->>>>>>> 21f54e3587b356e3df6fd93df94fece5d4ba3b35
+
           <Link to="/" className="btn btn-danger m-2">
             Inicio
           </Link>

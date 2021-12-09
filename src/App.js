@@ -1,4 +1,3 @@
-
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/navegacion/Navbar";
@@ -18,10 +17,6 @@ import CerrarFidu from "./components/BVCCancelarCuenta/CancelarFiducuenta";
 import TransFidu from "./components/BVCTransferir/TransfDineroFiduCuenta";
 import ClienteFidu from "./components/BVCliente/BVCliente";
 
-
-
-
-
 const App = () => {
   return (
     <Router>
@@ -29,8 +24,11 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Login" element={<Login />} />
-        <Route path="/RegistroClinetes" element={<RegistroClientes/>} />
-        <Route path="/RegistroDatosPersonales" element={<AddDatosPersonales/>} />
+        <Route path="/RegistroClinetes" element={<RegistroClientes />} />
+        <Route
+          path="/RegistroDatosPersonales"
+          element={<AddDatosPersonales />}
+        />
         <Route path="/Dashboard" element={<Dashboard />} />
         <Route path="/Clientes" element={<Clientes />} />
         <Route path="/qr" element={<Qr />} />
@@ -47,3 +45,4 @@ const App = () => {
   );
 };
 
+export default App;
