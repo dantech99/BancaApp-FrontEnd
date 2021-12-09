@@ -3,7 +3,11 @@ import imagen4 from "../../assets/fondo1.png";
 import "../../App.css";
 import imagen5 from "../../assets/fondocontent.jpg";
 import imagen6 from "../../assets/fondocontent3.jpg";
+<<<<<<< HEAD
 import { Link } from "react-router-dom";
+=======
+
+>>>>>>> 21f54e3587b356e3df6fd93df94fece5d4ba3b35
 import Cards from "../../components/card/Cards";
 
 const HomeFondo = () => {

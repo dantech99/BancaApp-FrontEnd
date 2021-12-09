@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 21f54e3587b356e3df6fd93df94fece5d4ba3b35
 .bg-color {
   background: #0E2654 !important;
   color: white !important;
   font-weight: bolder !important;
+<<<<<<< HEAD
 }
 
 .bg-color-footer {
@@ -18,30 +22,18 @@
 =======
 .App {
   text-align: center;
+=======
+>>>>>>> 21f54e3587b356e3df6fd93df94fece5d4ba3b35
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-color-footer {
+  background: #0E2654 !important;
+  color: white !important;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
+<<<<<<< HEAD
 .App-link {
   color: #61dafb;
 }
@@ -55,3 +47,8 @@
   }
 }
 >>>>>>> jhon
+=======
+.img-fondo {
+  background-image: url(./assets/fondo2.jpg);
+}
+>>>>>>> 21f54e3587b356e3df6fd93df94fece5d4ba3b35
